@@ -1,0 +1,87 @@
+.topBox {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.selectSearch {
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  font-weight: bold;
+  border: rgba(112, 112, 112, 0.37) solid 2px;
+  color: #4f5860;
+  border-radius: 0.4rem;
+  outline: none;
+  background-color: white;
+}
+
+.listOutboundTitle {
+  width: calc(100% - 15px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 6rem 1.3rem 1rem;
+  width: calc(100% - 15px);
+  border-radius: 0.5rem;
+}
+.listOutboundTitle p {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #4f5860;
+}
+
+.listOutbound {
+  width: calc(100% - 15px);
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  height: 29.9rem;
+  overflow-y: scroll;
+}
+
+.listOutbound::-webkit-scrollbar {
+  width: 1rem;
+  border-radius: 13px;
+  padding: 2rem;
+}
+.listOutbound::-webkit-scrollbar-thumb {
+  background-color: #4f5860;
+  border-radius: 1rem;
+  border-left: 2px solid #d9d9d9;
+  border-right: 2px solid #d9d9d9;
+}
+.listOutbound::-webkit-scrollbar-track {
+  background-color: #e4eff6;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem 2rem 1.3rem 1rem;
+  width: calc(100% - 15px);
+  border-radius: 0.5rem;
+  background: #e5eff6;
+}
+
+.item p {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #4f5860;
+}
+
+.rigthBoxItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.openModalBtn {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}

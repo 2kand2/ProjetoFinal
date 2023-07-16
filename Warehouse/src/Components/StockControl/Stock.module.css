@@ -1,0 +1,76 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.searchbar {
+  font-family: inherit;
+  font-size: 2rem;
+  width: 60%;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: rgba(112, 112, 112, 0.37) solid 2px;
+  color: #4f5860;
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+.searchbar::placeholder {
+  color: #96b0c7;
+}
+
+.productList {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  height: 30.2rem;
+  overflow-y: scroll;
+}
+
+.productList::-webkit-scrollbar {
+  width: 1rem;
+  border-radius: 13px;
+  padding: 2rem;
+}
+.productList::-webkit-scrollbar-thumb {
+  background-color: #4f5860;
+  border-radius: 1rem;
+  border-left: 2px solid #d9d9d9;
+  border-right: 2px solid #d9d9d9;
+}
+.productList::-webkit-scrollbar-track {
+  background-color: #e4eff6;
+}
+.productList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem 4rem 1.3rem 1rem;
+  width: calc(100% - 15px);
+  border-radius: 0.5rem;
+  background: #e5eff6;
+}
+
+.productList li p {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #4f5860;
+}
+
+.boxAttributes {
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  font-size: 2rem;
+  background: var(--blue-dark-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-right: 2rem;
+  cursor: pointer;
+}

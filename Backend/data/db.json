@@ -1,0 +1,507 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "Henrique",
+      "password": "Tailandia25^",
+      "email": "henrique@gmail.com",
+      "token": "2BAC2"
+    }
+  ],
+  "requester": [
+    {
+      "name": "Jeferson Caminhões",
+      "id": 1
+    },
+    {
+      "name": "Fatima Bernades",
+      "id": 2
+    },
+    {
+      "name": "Estevao Ferreira",
+      "id": 3
+    }
+  ],
+  "stock": [
+    {
+      "itemName": "Tinta Preta",
+      "type": "CONSUMABLE",
+      "itemCode": "001",
+      "id": 1
+    },
+    {
+      "itemName": "Cadeira de escritório",
+      "type": "PATRIMONY",
+      "itemCode": "002",
+      "id": 2
+    },
+    {
+      "itemName": "Tinta Amarela",
+      "type": "CONSUMABLE",
+      "itemCode": "003",
+      "id": 3
+    },
+    {
+      "itemName": "Caneta Preta",
+      "type": "CONSUMABLE",
+      "itemCode": "004",
+      "id": 4
+    },
+    {
+      "itemName": "Canetas Amarela",
+      "type": "CONSUMABLE",
+      "itemCode": "005",
+      "id": 5
+    },
+    {
+      "itemName": "Notebook Lenovo",
+      "type": "PATRIMONY",
+      "itemCode": "006",
+      "id": 6
+    },
+    {
+      "itemName": "Mesa de escritório",
+      "type": "PATRIMONY",
+      "itemCode": "007",
+      "id": 7
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "type": "entrada",
+      "typeItem": "CONSUMABLE",
+      "itemCode": "001",
+      "quantity": 10,
+      "expiryDate": "2023-12-31",
+      "entryDate": "2023-06-22"
+    },
+    {
+      "id": 2,
+      "type": "entrada",
+      "typeItem": "CONSUMABLE",
+      "itemCode": "001",
+      "quantity": 10,
+      "expiryDate": "2023-12-31",
+      "entryDate": "2023-06-22"
+    },
+    {
+      "id": 3,
+      "type": "entrada",
+      "typeItem": "CONSUMABLE",
+      "itemCode": "001",
+      "quantity": 10,
+      "expiryDate": "2023-12-31",
+      "entryDate": "2023-06-22"
+    },
+    {
+      "id": 4,
+      "type": "entrada",
+      "typeItem": "PATRIMONY",
+      "itemName": "Cadeira do cachorro chupetão",
+      "itemCode": "002",
+      "quantity": 5,
+      "entryDate": "2023-06-22"
+    },
+    {
+      "id": 5,
+      "type": "entrada",
+      "typeItem": "PATRIMONY",
+      "itemName": "Cadeira do cachorro chupetão",
+      "itemCode": "002",
+      "quantity": 5,
+      "entryDate": "2023-06-22"
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Roxa",
+          "quantity": "100"
+        },
+        "1": {
+          "name": "Tinta Amarela",
+          "quantity": "100"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-06-29",
+      "id": 6
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Roxa",
+          "quantity": "25"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-06-29",
+      "id": 7
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Roxa",
+          "quantity": "25"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-06-29",
+      "id": 8
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Preta",
+          "quantity": "50"
+        },
+        "1": {
+          "name": "Cadeira de escritório",
+          "quantity": "100"
+        },
+        "2": {
+          "name": "Tinta Amarela",
+          "quantity": "10"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-06-30",
+      "id": 9
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Cadeira de escritório",
+          "quantity": "25"
+        },
+        "1": {
+          "name": "Tinta Amarela",
+          "quantity": "25"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-01",
+      "id": 10
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Roxa",
+          "quantity": "25"
+        },
+        "1": {
+          "name": "Cadeira de escritório",
+          "quantity": "50"
+        },
+        "2": {
+          "name": "Tinta Amarela",
+          "quantity": "200"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-01",
+      "id": 11
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Rosa",
+          "quantity": "10"
+        },
+        "1": {
+          "name": "Cadeira de escritório",
+          "quantity": "20"
+        },
+        "2": {
+          "name": "Tinta Amarela",
+          "quantity": "20"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-01",
+      "id": 12
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Rosa",
+          "quantity": "25"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-01",
+      "id": 13
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Rosa",
+          "quantity": "25"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-01",
+      "id": 14
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Rosa",
+          "quantity": "25"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-01",
+      "id": 15
+    },
+    {
+      "items": {
+        "0": {
+          "name": "Tinta Amarela",
+          "quantity": "52"
+        },
+        "1": {
+          "name": "Cadeira de escritório",
+          "quantity": "100"
+        },
+        "2": {
+          "name": "Tinta Rosa",
+          "quantity": "100"
+        }
+      },
+      "type": "entrada",
+      "entryDate": "2023-07-02",
+      "id": 16
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Amarela",
+          "quantityOutbound": 1
+        },
+        {
+          "name": "Cadeira de escritório",
+          "quantityOutbound": "2"
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-04",
+      "id": 17
+    },
+    {
+      "items": [
+        {
+          "name": "Cadeira de escritório sem rodas",
+          "quantityOutbound": 1
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantityOutbound": 1
+        },
+        {
+          "name": "Tinta Rosa",
+          "quantityOutbound": 1
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-04",
+      "id": 18
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Roxa",
+          "quantity": "50"
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantity": "50"
+        }
+      ],
+      "type": "entrada",
+      "entryDate": "2023-07-04",
+      "id": 19
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Roxa",
+          "quantity": "20000"
+        }
+      ],
+      "type": "entrada",
+      "entryDate": "2023-07-04",
+      "id": 20
+    },
+    {
+      "items": [
+        {
+          "name": "Cadeira de escritório sem rodas",
+          "quantityOutbound": "123"
+        },
+        {
+          "name": "Tinta Roxa",
+          "quantityOutbound": "20"
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-04",
+      "id": 21
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Roxa",
+          "quantityOutbound": 1
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-05",
+      "id": 22
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Amarela",
+          "quantityOutbound": "55"
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-05",
+      "id": 23
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantity": "30"
+        },
+        {
+          "name": "Cadeira de escritório sem rodas",
+          "quantity": "10"
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantity": "5"
+        }
+      ],
+      "type": "entrada",
+      "entryDate": "2023-07-05",
+      "id": 24
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantityOutbound": "50"
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantityOutbound": "50"
+        },
+        {
+          "name": "Cadeira de escritório sem rodas",
+          "quantityOutbound": "50"
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-05",
+      "id": 25
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantity": "20"
+        }
+      ],
+      "type": "entrada",
+      "entryDate": "2023-07-05",
+      "id": 26
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantityOutbound": "10"
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantityOutbound": "120"
+        }
+      ],
+      "type": "saida",
+      "requester": "Jeferson Caminhões",
+      "outDate": "2023-07-05",
+      "id": 27
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantityOutbound": "20"
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantityOutbound": "45"
+        }
+      ],
+      "type": "saida",
+      "requester": "Estevao Ferreira",
+      "outDate": "2023-07-05",
+      "id": 28
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantity": 1
+        },
+        {
+          "name": "Cadeira de escritório sem rodas",
+          "quantity": "20"
+        }
+      ],
+      "type": "entrada",
+      "entryDate": "2023-07-05",
+      "id": 29
+    },
+    {
+      "items": [
+        {
+          "name": "Tinta Preta",
+          "quantity": "50"
+        },
+        {
+          "name": "Tinta Amarela",
+          "quantity": "50"
+        }
+      ],
+      "type": "entrada",
+      "entryDate": "2023-07-05",
+      "id": 30
+    },
+    {
+      "items": [
+        {
+          "name": "Cadeira de escritório",
+          "quantityOutbound": "20"
+        },
+        {
+          "name": "Caneta Preta",
+          "quantityOutbound": "20"
+        }
+      ],
+      "type": "saida",
+      "requester": "Estevao Ferreira",
+      "outDate": "2023-07-05",
+      "id": 31
+    }
+  ]
+}

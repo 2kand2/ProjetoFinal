@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #e5eff6;
+}
+
+.container h1 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}

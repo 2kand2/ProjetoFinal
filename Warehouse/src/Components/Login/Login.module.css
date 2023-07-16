@@ -1,0 +1,41 @@
+.loginContainer {
+  width: 100vw;
+  height: 100vh;
+  background: var(--blue-light-color);
+  display: flex;
+  align-items: center;
+}
+
+.containerContent {
+  width: 546px;
+  height: 766px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 400px;
+  margin-left: 2rem;
+}
+
+.button {
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #056cf2;
+  color: white;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.error {
+  text-align: center;
+  color: #f31;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}

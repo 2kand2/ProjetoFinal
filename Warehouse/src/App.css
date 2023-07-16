@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --blue-light-color: #86cefa;
+  --blue-dark-color: #008cff;
+  --type-first: monospace;
+  font-family: var(--type-first);
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 100%;
+  padding: 1rem 2rem;
+}
+
+.mainContainer {
+  max-width: 96rem;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}

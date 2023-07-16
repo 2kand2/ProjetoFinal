@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem 4rem 1.3rem 1rem;
+  width: calc(100% - 15px);
+  border-radius: 0.5rem;
+  background: #e5eff6;
+}
+
+.item p {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #4f5860;
+}
+
+.boxAttributes {
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
